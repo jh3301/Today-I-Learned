@@ -1,0 +1,15 @@
+July 29, 2026
+
+Today I worked through the "Introduction to Operating System Security" room on TryHackMe, which tied in nicely with what I've been learning in my Google Cybersecurity course.
+
+I started by looking at hardware, software, and the CIA triad, then focused on three major OS weaknesses that threat actors target: weak passwords, poor file permissions, and unauthorised malicious programs.
+
+I then continued into the hands-on lab using a threat machine against a target machine. Here is my debrief:
+- Logged into the target machine via SSH as the user 'sammie' (I learned that SSH doesn't show stars or dots when typing passwords, but the system still registers the text)
+- I then proceeded with iterative 'su' attempts to identify the password for another user on the system, 'johnny' (I used the top 7 most common passwords listed by the National Cyber Security Centre (NCSC)
+- I then used the 'history' command to reveal the last typed commands by 'johnny', from here I managed to find stored credentials/passwords that helped me gain access to the 'root' account. 
+- With full root access, I was able to open and read the secret 'flag' file to complete the task.
+
+Exploring the '/etc/passwd', '/home', and '/root' directories before attempting escalation. This reconnaissance approach aligns with proper enumeration: gather information first, then attempt escalation with context. This reduces guessing and increases the success rate. All in all, I demonstrated disciplined reconnaissance methodology. 
+
+I look forward to exploring the command terminal further and becoming more familiar with it.
