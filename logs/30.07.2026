@@ -1,0 +1,12 @@
+July 30, 2026
+
+Today worked on some more of my of the Google Cybersecurity Professional Certificate and progressed onto Course 3 (Connect and Protect: Network and Network Security), Module 3 (Secure against network intrusion) 
+
+I started the day by studying how networks face constant threats from network interception, packet sniffing, and backdoors used by attackers to maintain persistent access. 
+
+I then moved on to an introduction to Denial of Service (DoS) attacks and the potential financial, reputational and public safety impacts they might have on an organisation. The course then touched on 'The 3 Cs' as an effective incident response, Command, Control and Communications, emphasising clear leadership, coordinated efforts and open information sharing. Branching off from Denial of Service attacks, I then learned about Distributed Denial of Service (DDoS) attacks, a type of DoS attack that uses multiple devices to flood the target network. This was pretty straightforward to understand due to the similarity of the two. 
+Staying within the topic of DoS attacks, I learnt about some common network-level DoS attacks, such as SYN Flood attacks, ICMP Flood attacks and the Ping of Death attack.
+
+I then progressed on to an introduction to tcpdump, what it is, and how to read tcpdump logs. I learned how to use tcpdump to capture and interpret network traffic components like timestamps, source/destination IPs, and port numbers. I then completed a practice assignment analysing a network layer log where a UDP packet failed to deliver to port 53. I successfully deduced that this was a DNS issue because port 53 was unreachable, and I wrote my first-ever incident report summarising the event. Got stuck during the detailed analysis phase of the report; I felt a bit unsure of myself and failed to note deeper log details like the DNS query ID and the '+ A?' flags. Comparing my write-up to the lab exemplar gave me a much clearer picture of the depth required for professional log analysis.
+
+My next steps are I plan to generate a mock tcpdump log to practice writing another incident report and build up my confidence. I feel I might need to analyse some more tcpdump logs to build confidence in writing detailed and accurate reports. 
