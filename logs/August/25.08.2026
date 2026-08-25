@@ -1,0 +1,10 @@
+Log entry: August 25th 2026
+
+Today I progressed to Module 4, focusing on databases and SQL.
+
+- I was introduced to SQL (Structured Query Language) and the core concepts behind relational databases.
+- I learned how data is organised within tables, breaking down the difference between fields (columns) and records (rows).
+- I explored relational data modelling, studying how primary keys uniquely identify records within a table and how foreign keys establish relationships and connections across different tables.
+- I looked at the fundamental differences between SQL and Linux, comparing how SQL is used specifically for querying and managing structured data within databases, whilst Linux commands are used for operating system navigation, process management, and file system manipulation.
+
+Moving forward, I want to start writing basic SQL queries to practice filtering, retrieving, and analysing data from tables.
